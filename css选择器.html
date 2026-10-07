@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css选择器</title>
+    <style>
+        /* 元素选择器 */
+        h1 {
+            color: maroon;
+        }
+        /* 类选择器 */
+        .max {
+            color: blue;
+        }
+        /* id选择器 */
+        #robin {
+            color: green;
+        }   
+        /* 通配符选择器 */
+        * {
+            font-family: kaiti;
+        }  
+        /* 子元素选择器 */
+        .father>.son {
+            color: orange;
+        }
+        /* 后代元素选择器 */
+        .father .grandson {
+            color: purple;
+        }
+        /* 兄弟选择器 */
+        h3 + p {
+            color: red;
+        }
+        /* 伪类选择器 */
+        h3#ivy:hover {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>这是一个元素选择器实例</h1>
+    <h2 class="max">这是一个类选择器实例</h2>
+    <h3 id="robin">这是一个id选择器实例</h3>
+
+    <div class="father">
+        <p class="son">这是一个子元素选择器</p><div>
+            <p class="grandson">这是一个后代元素选择器</p>
+        </div>
+    </div>
+
+    <p>这是一个兄弟选择器</p>
+    <h3>这是一个标题</h3>
+    <p>这是另一个兄弟选择器</p>
+    <h3 id="ivy">这是一个伪类选择器</h3>
+
+    
+
+    
+</body>
+</html>
