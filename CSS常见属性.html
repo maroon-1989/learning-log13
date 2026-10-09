@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS常见属性</title>
+    <style>
+        .block {
+           
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        }
+        .inline {
+           
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+        }
+        .inline-block {
+           
+            width: 100px;
+            height: 200px;
+            ;
+        }
+        .block>.son {
+           width: 150px;
+            height: 50px;
+            background-color: yellow;
+        }
+        .block .grandson {
+            width: 100px;
+            height: 30px;
+            background-color: green;
+        }
+        .span-inline-block{
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="font: bold 20px '微软雅黑' ; line-height: 3;">这是一个font复合属性的示例</h1>
+    <p style="line-height: 2;">这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例这是一个行高示例</p>
+    <div class="block">这是一个块元素
+        <div class="son">这是一个子元素
+            <p class="grandson">这是一个后代元素</p>
+        </div>
+    </div>
+    <span class="inline">这是一个行内元素</span>
+    <span class="inline">这是一个行内元素</span>
+    <img src="max.png.jpg" alt="" class="inline-block" style="display: block; ">
+    <div style="background-color: aqua;">这bu是一个转换成行内的块标签</div>
+    <div style="display: inline; background-color: aqua;">这是一个转换成行内的块标签</div>
+    <span>这不是一个转换块的行标签</span>
+    <span class="span-inline-block">这是一个转换行内块块的行标签</span>
+    <span style="display:block;">这是一个转换块的行标签</span>
+</body>
+    
+    
+</html>
