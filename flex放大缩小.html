@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex放大缩小</title>
+    <style>
+        .box1{
+            width:600px;
+            height:400px;
+            display: flex;
+            background-color: aquamarine;
+
+        }
+        .a{
+            flex: 1 1 100px;
+            background-color: red;
+           
+        }
+        .b{
+            flex: 1 2 200px;
+            background-color: blue;
+            
+        }
+            .c{
+            width: 250px;
+                background-color: rgb(0, 255, 26);
+                
+            }
+            .d{
+            width: 350px;
+                background-color: rgb(255, 179, 0);
+                display: inline-block;
+                
+            }
+            .nb{
+                display: flex;
+            }
+            .box2{
+            width:300px;
+            height:400px;
+            display: flex;
+            background-color: aquamarine;
+            margin-top: 50px;
+            
+            }
+            .e{
+            flex: 1 1 200px;
+             background-color: rgb(255, 0, 191);
+            
+            }
+            .f{
+            flex: 1 2 300px;
+             background-color: rgb(0, 119, 255);
+            
+            }
+            .bn{
+                display: flex;
+                margin-bottom: 300px;
+                
+            }
+            .E{
+            width: 150px;
+                background-color: rgb(255, 187, 0);
+            }
+            .F{
+            width: 150px;
+                background-color: rgb(0, 255, 26);
+            }   
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="a">A</div>
+        <div class="b">B</div>
+    </div>
+    <div class="nb">
+    <div class="c">250px</div><div class="d">350px</div>
+    </div>
+    <div class="box2">
+        <div class="e">E</div>
+        <div class="f">F</div>
+    </div>
+    <div class="bn">
+        <div class="E">150</div>
+        <div class="F">150</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex三大属性</title>
+    <style>
+        .box1{
+            width:600px;
+            height:400px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+
+        }
+        .block1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    
+        .block2{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .box2{
+            width:600px;
+            height:400px;
+            background-color: rgb(64, 255, 0);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 300px;
+        }
+         .block3{
+            width: 200px;
+            height: 100px;
+            background-color: rgb(255, 0, 191);
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+         .block4{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(0, 119, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .block5{
+            width: 200px;
+            height: 100px;
+            background-color: rgb(255, 187, 0);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-end;
+        }
+            
+
+           
+        </style>
+</head>
+<body><h1>这是一个flex三大属性的示例</h1>
+    <div class="box1">
+        <div class="block1">左面</div>
+        <div class="block2">右面</div>
+    </div>
+    <div class="box2">
+        <div class="block3">
+            <div >左面</div>
+            <div >中间</div>
+            <div >右面</div>
+
+        </div>
+        <div class="block4">中间</div>
+        <div class="block5">
+            <div >左面</div>
+            <div >中间</div>
+            <div >右面</div>
+        </div>
+    </div>
+
+</body>
+</html>
