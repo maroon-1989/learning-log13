@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid基础概念</title>
+    <style>
+        .box1{
+             width: 600px;
+            display: grid;
+           
+            grid-template-columns: 100px 1fr 100px;
+            grid-template-rows: 200px 200px;
+            gap: 10px;
+        }
+        .SON{
+            background-color: rgb(0, 255, 26);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="SON">1</div>
+        <div class="SON">2</div>
+        <div class="SON">3</div>
+        <div class="SON">4</div>
+        <div class="SON">5</div>
+        <div class="SON">6</div>
+
+    </div>
+
+    
+</body>
+</html>
